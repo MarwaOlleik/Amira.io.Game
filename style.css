@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    background-color: #BDF3F5;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #F4C2C2;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .a {
+   background-image: url("./images/elsa.png");
+  }
+  
+  .m {
+    background-image: url("./images/anna.png");
+  }
+  
+  .i {
+    background-image: url("./images/elsa2.png");
+    color: #3DD8B5 !important;
+  }
+  
+  .r {
+    background-image: url("./images/elsa3.png");
+  }
+  
+  .s {
+    background-image: url("./images/elsaAnna.png");
+  }
+  
+
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+
+/* Heart style */
+.heart {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  clip-path: polygon(50% 0%, 100% 35%, 83% 100%, 50% 65%, 17% 100%, 0% 35%);
+  animation: flyHeart 1s ease-out;
+}
+
+@keyframes flyHeart {
+  0% {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-200px) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+
+
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #f095de;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    background-size:200px 200px;
+  }
+  .name{
+    outline: none;
+    border: 10px solid #f095de;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    background-size:275px 275px;
+    background-image: url("./images/elsaAnna2.png");
+  }
